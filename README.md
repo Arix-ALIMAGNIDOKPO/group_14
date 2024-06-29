@@ -14,12 +14,12 @@ La classe `Matrice` permet de créer des tableaux 1D et 2D et de réaliser des o
 
 Vous pouvez installer le package Python `matrice-ifri` via pip :
 
-```bash
+```
 pip install matrice-ifri
 ```
 ## Utilisation
 
-```python
+```
 from matrice_ifri import Matrice
 
 # Créer un tableau 1D
