@@ -16,7 +16,7 @@ Vous pouvez installer le package Python `matrice-ifri` via pip :
 
 ````bash
 pip install matrice-ifri
-exit
+```
 ## Utilisation
 
 ```python
@@ -36,7 +36,7 @@ print(5 in array1d)  # Recherche d'élément
 print(array2d[0, 1])  # Indexage
 print(array1d[1:4])  # Slicing
 
-exit
+```
 
 ## Code source
 
