@@ -14,7 +14,7 @@ La classe `Matrice` permet de créer des tableaux 1D et 2D et de réaliser des o
 
 Vous pouvez installer le package Python `matrice-ifri` via pip :
 
-````bash
+```bash
 pip install matrice-ifri
 ```
 ## Utilisation
@@ -34,7 +34,7 @@ print(array1d * 2)  # Multiplication par un scalaire
 print(array1d @ 2)  # Multiplication avec un scalaire (@)
 print(5 in array1d)  # Recherche d'élément
 print(array2d[0, 1])  # Indexage
-print(array1d[1:4])  # Slicing
+print(array1d[1:4])  # Slicing 
 
 ```
 
