@@ -68,3 +68,47 @@ L'analyse des données de chambres à coucher montre que la plupart des maisons 
 ### Analyse du graphique de nuage de points :
 
 Le graphique de nuage de points montre une tendance positive entre la superficie ('area') et le prix des maisons. Cela signifie qu'en général, les logements plus grands sont plus chers que les logements plus petits. Cette tendance est illustrée par la forme générale du nuage de points, qui présente une inclinaison positive. 
+
+
+## Tâche 3 : Générateur d'Images avec Tkinter et Hugging Face
+
+Ce repository contient dans le dossier `task_3` une application GUI en Python utilisant Tkinter pour générer des images à partir de descriptions textuelles. Le programme utilise des modèles de génération d'images pré-entraîné de Hugging Face pour transformer le texte en une image.
+
+**Fonctionnalités:**
+
+* **Champ de texte d'entrée:** Permet à l'utilisateur de saisir une description textuelle.
+* **Bouton "Générer":** Lance le processus de génération d'image.
+* **Affichage de l'image:** Affiche l'image générée dans une fenêtre séparée.
+
+**Utilisation:**
+
+1. **Installez les dépendances:**
+
+   ```bash
+   cd task_3
+   pip install -r requirements.txt
+   ```
+
+2. **Exécutez le code:**
+
+   ```bash
+   main.py
+   ```
+
+3. **Saisissez une description textuelle:** dans le champ `prompt`.
+4. **Selectionnez le modele:** choisissez entre les modeles disponibles.
+5. **Cliquez sur "Générer":** pour générer l'image.
+
+**Configuration:**
+
+* Le code utilise les modèles `hf-internal-testing/tiny-stable-diffusion-pipe` et `segmind/tiny-sd`.
+
+**Remarques:**
+
+* Le programme utilise le processeur pour générer les images.
+* Le temps de génération des images peut varier en fonction de la complexité de la description et du modèle utilisé. 
+* Les modèles de génération d'images peuvent générer des images variées et parfois surprenantes. 
+
+**Code source:**
+
+Le code source du programme se trouve dans le fichier `main.py`.
