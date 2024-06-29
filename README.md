@@ -113,4 +113,15 @@ Ce repository contient dans le dossier `task_3` une application GUI en Python ut
 
 Le code source du programme se trouve dans le fichier `main.py`.
 
+### Contributeurs 
 
+1. ALIMAGNIDOKPO Ange Michel Arix Tundé 14%
+2. HOUETO Nelson Mahougnon 10%
+3. APLOGAN DJIBODE Grâce Thierry Yélian 12%
+4. KASSIFA Oga Christ Bienvenu 9%
+5. DEGBEGNON Emmanuella Grâce Houéfa 9%
+6. SANNI BAYER Sommin Bérenger 5%
+7. TONON Deo-gracias David 5%
+8. ASSOGBA Mahuna Gilles-Christ 12%
+9. TITO Vigninnou Lucien 12%
+10. DANVI Ospelin Lauren 12%
