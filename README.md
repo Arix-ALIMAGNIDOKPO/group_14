@@ -41,3 +41,30 @@ print(array1d[1:4])  # Slicing
 ## Code source
 
 Le code source de la classe `Matrice` est disponible dans le fichier `numpy.py` du dossier `task_1`.
+
+## Tache 2 : Tracé de Graphiques et Analyse de Données en Python et R
+
+Dans cette tâche, contenue dans le dossier `task_2`, nous devons analyser le dataset [Housing Prices Dataset](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset) de Kaggle et sortir :
+
+* Un histogramme
+* Un graphique nuage de point (scatter plot).
+
+Pour l'histogramme, utilisez la colonne 'bedrooms'. Pour le graphique de dispersion, utilisez la colonne 'area' en abscisse et 'price' en ordonnées. 
+
+Vous trouverez les graphiques et l'analyse complémentaire ci-dessous.
+
+### Histogramme des Chambres à Coucher
+
+![Histogramme des Chambres à Coucher](task_2\Images\hist_R.png)
+
+### Analyse de l’histogramme :
+
+L'analyse des données de chambres à coucher montre que la plupart des maisons dans le dataset ont entre 2 et 4 chambres, avec un pic autour à 3 chambres. Les maisons avec moins de 2 chambres ou plus de 5 chambres sont rares, ce qui indique que les logements plus grands sont moins courants.
+
+### Graphique de Dispersion : Superficie vs Prix
+
+![Graphique de Dispersion](task_2\Images\scatter_R.png)
+
+### Analyse du graphique de nuage de points :
+
+Le graphique de nuage de points montre une tendance positive entre la superficie ('area') et le prix des maisons. Cela signifie qu'en général, les logements plus grands sont plus chers que les logements plus petits. Cette tendance est illustrée par la forme générale du nuage de points, qui présente une inclinaison positive. 
