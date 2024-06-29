@@ -55,7 +55,7 @@ Vous trouverez les graphiques et l'analyse complémentaire ci-dessous.
 
 ### Histogramme des Chambres à Coucher
 
-![Histogramme des Chambres à Coucher](task_2\Images\hist_R.png)
+![Histogramme des Chambres à Coucher](task_2/Images/hist_R.png)
 
 ### Analyse de l’histogramme :
 
@@ -63,7 +63,7 @@ L'analyse des données de chambres à coucher montre que la plupart des maisons 
 
 ### Graphique de Dispersion : Superficie vs Prix
 
-![Graphique de Dispersion](task_2\Images\scatter_R.png)
+![Graphique de Dispersion](task_2/Images/scatter_R.png)
 
 ### Analyse du graphique de nuage de points :
 
